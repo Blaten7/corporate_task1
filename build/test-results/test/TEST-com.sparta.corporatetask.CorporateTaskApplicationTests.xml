@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sparta.corporatetask.CorporateTaskApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-11T01:18:50" hostname="DESKTOP-78FR2T2" time="0.396">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.sparta.corporatetask.CorporateTaskApplicationTests" time="0.396"/>
+  <system-out><![CDATA[10:18:49.281 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sparta.corporatetask.CorporateTaskApplicationTests]: CorporateTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:18:49.339 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.sparta.corporatetask.CorporateTaskApplication for test class com.sparta.corporatetask.CorporateTaskApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-11T10:18:49.545+09:00  INFO 14324 --- [corporateTask] [    Test worker] c.s.c.CorporateTaskApplicationTests      : Starting CorporateTaskApplicationTests using Java 17.0.10 with PID 14324 (started by user in D:\WorkSpace\INTELIJ\corporateTask)
+2024-12-11T10:18:49.546+09:00  INFO 14324 --- [corporateTask] [    Test worker] c.s.c.CorporateTaskApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T10:18:49.936+09:00  WARN 14324 --- [corporateTask] [    Test worker] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.sparta.corporatetask]' package. Please check your configuration.
+2024-12-11T10:18:50.608+09:00  INFO 14324 --- [corporateTask] [    Test worker] c.s.c.CorporateTaskApplicationTests      : Started CorporateTaskApplicationTests in 1.182 seconds (process running for 1.905)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
