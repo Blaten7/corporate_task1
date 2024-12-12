@@ -4,8 +4,11 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: spring-boot-app
+    volumes:
+      - ./src:/app/src   # 로컬 디렉토리를 컨테이너의 디렉토리와 연결
+      - ./target:/app/target
     ports:
-      - "8082:8080"
+      - "8080:8080"
     environment:
       - SPRING_PROFILES_ACTIVE=dev
     depends_on:
