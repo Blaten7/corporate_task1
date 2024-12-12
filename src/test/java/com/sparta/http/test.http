@@ -1,5 +1,5 @@
 ### 리뷰 등록 API(이미지 포함 등록)
-POST http://localhost:8082/products/{productId}/reviews
+POST http://localhost:8082/products/1/reviews
 Content-Type: multipart/form-data; boundary=----boundary
 
 ------boundary
@@ -17,6 +17,9 @@ Content-Type: image/jpeg
 
 < C:\Users\user\Downloads\backiee-295202-landscape.jpg
 ------boundary--
+
+### 리뷰 조회 API
+GET http://localhost:8082/products/{productId}/reviews?cursor={cursor}&size={size}
 
 
 ### 상품등록
