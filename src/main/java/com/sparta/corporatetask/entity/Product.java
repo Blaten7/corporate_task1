@@ -5,13 +5,13 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "Product")
+@Table(name = "product")
 public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long reviewCount; // 리뷰 개수
-    private Double score; // 평균 점수
+    private Long reviewCount = 0L; // 리뷰 개수
+    private Double score = 0.0; // 평균 점수
 }
