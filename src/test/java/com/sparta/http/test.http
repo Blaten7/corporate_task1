@@ -1,0 +1,29 @@
+### 리뷰 등록 API(이미지 포함 등록)
+POST http://localhost:8082/products/{productId}/reviews
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="review"
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "score": 3,
+  "content": "BMW M4"
+}
+------boundary
+Content-Disposition: form-data; name="image";  filename="test1.jpg";
+Content-Type: image/jpeg
+
+< C:\Users\user\Downloads\backiee-295202-landscape.jpg
+------boundary--
+
+
+### 상품등록
+POST http://localhost:8082/products/register
+Content-Type: application/json
+
+{
+  "reviewCount": 0,
+  "score": 0.0
+}
