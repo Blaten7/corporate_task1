@@ -1,7 +1,6 @@
 package com.sparta.corporatetask.controller;
 
 import com.sparta.corporatetask.dto.ReviewDto;
-import com.sparta.corporatetask.entity.Review;
 import com.sparta.corporatetask.service.ReviewService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
@@ -10,8 +9,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.util.List;
 
 @Slf4j
 @RestController

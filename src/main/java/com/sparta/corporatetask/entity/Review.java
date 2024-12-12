@@ -26,7 +26,7 @@ public class Review {
 
     private String imageUrl; // 리뷰에 첨부된 이미지 URL
 
-    @Column(name = "createdAt", updatable = false)
+    @Column(name = "created_at", updatable = false)
     private java.time.LocalDateTime createdAt; // 리뷰 작성 시간
 
     @PrePersist
